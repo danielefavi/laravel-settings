@@ -15,7 +15,7 @@ class SettingsServiceProvider extends ServiceProvider
     {
         $this->app->instance(
             'settings',
-            new Setting()
+            new \DanieleFavi\Settings\Setting()
         );
     }
 
