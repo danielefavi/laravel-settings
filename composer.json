@@ -1,0 +1,29 @@
+{
+    "name": "danielefavi/laravel-settings",
+    "description": "Laravel package for handling your APP settings.",
+    "keywords": [
+        "laravel-settings",
+        "settings",
+        "setting"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniele Favi",
+            "email": "info@danielefavi.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanieleFavi\\Settings\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
